@@ -1,0 +1,20 @@
+[
+    {
+        "title": "HomeDB",
+        "link": "https://github.com/benbur98/HomeDB",
+        "description": "A simple database for home use",
+        "technologies": ["Python", "SQLite"]
+    },
+    {
+        "title": "drunked",
+        "link": "https://github.com/benbur98/drunked",
+        "description": "Drink Tracking App for Sessions",
+        "technologies": ["Kotlin", "Compose", "Multiplatform", "SQLite", "Dependency Injection"]
+    },
+    {
+        "title": "Choresaurus",
+        "link": "https://github.com/benbur98/choresaurus",
+        "description": "Home Task Tracking App",
+        "technologies": ["Kotlin", "Compose", "Multiplatform", "iOS", "Android", "Desktop"]
+    }
+]

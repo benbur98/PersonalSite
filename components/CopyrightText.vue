@@ -17,16 +17,18 @@ const props = defineProps({
     padding: 10px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    background-color: #d1dbe6;
+    color: #636362;
 }
 
 .copyright-container.light {
-  background-color: #edf2f7;
-  color: #636362;
+    background-color: #d1dbe6;
+    color: #636362;
 }
 
 .copyright-container.dark {
-  background-color: #2d3748;
-  color: #f7fafc;
+    background-color: #2d3748;
+    color: #f7fafc;
 }
 
 p {
