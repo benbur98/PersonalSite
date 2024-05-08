@@ -1,26 +1,20 @@
 <template>
-    <UCard class="profile">
-        <UAvatar
-            :src=image_src
-            :alt="`${props.name} Picture`"
-            size="3xl" />
-        <h1 class="profile-name">{{ name }}</h1>
+    <UCard>
+        <div class="flex flex-col items-center space-y-2">
+            <UAvatar
+                :src=image_src
+                :alt="`${props.name} Picture`"
+                size="3xl" />
+            <h1>{{ name }}</h1>
+            <h3>{{ subtitle }}</h3>
+        </div>
     </UCard>
 </template>
 
 <script setup>
 const props = defineProps({
     name: String,
+    subtitle: String,
     image_src: String,
 });
 </script>
-
-<style scoped>
-.profile {
-    text-align: center;
-}
-
-.profile-name {
-    margin-top: 10px;
-}
-</style>

@@ -1,10 +1,13 @@
 <template>
     <a :href="link">
-        <Icon :name="icon" color="#2e2e2e" size="3em" />
+        <Icon :name="icon" :color="iconColor" size="2.5em" />
     </a>
 </template>
 
 <script setup>
+const colorMode = useColorMode();
+const iconColor = computed(() => colorMode.value === 'dark' ? '#f8f8f8' : '#2e2e2e');
+
 const props = defineProps({
     icon: String,
     link: String
