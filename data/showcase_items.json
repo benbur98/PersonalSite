@@ -4,20 +4,19 @@
         "image": "https://raw.githubusercontent.com/benbur98/HomeDB/main/image.png",
         "link": "https://github.com/benbur98/HomeDB",
         "description": "A simple database for home use",
-        "technologies": ["Python", "SQLite"]
+        "technologies": ["Python", "Django", "SQLite", "REST API", "HTML", "CSS", "BOOTSTRAP"]
     },
     {
         "title": "drunked",
-        "image": "https://raw.githubusercontent.com/benbur98/HomeDB/main/image.png",
+        "image": "https://raw.githubusercontent.com/benbur98/drunked/main/assets/session_recording_screen.png",
         "link": "https://github.com/benbur98/drunked",
         "description": "Drink Tracking App for Sessions",
         "technologies": ["Kotlin", "Compose", "Multiplatform", "SQLite", "Dependency Injection"]
     },
     {
         "title": "Choresaurus",
-        "image": "https://raw.githubusercontent.com/benbur98/HomeDB/main/image.png",
         "link": "https://github.com/benbur98/choresaurus",
         "description": "Home Task Tracking App",
-        "technologies": ["Kotlin", "Compose", "Multiplatform", "iOS", "Android", "Desktop"]
+        "technologies": ["Kotlin","Swift", "Compose", "Multiplatform", "iOS", "Android", "Desktop"]
     }
 ]

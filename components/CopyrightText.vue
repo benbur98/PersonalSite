@@ -15,8 +15,10 @@ const props = defineProps({
     width: fit-content;
     bottom: 0;
     padding: 10px;
+    font-size: 10px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    background: none;
     background-color: #d1dbe6;
     color: #636362;
 }
@@ -29,10 +31,6 @@ const props = defineProps({
 .copyright-container.dark {
     background-color: #2d3748;
     color: #f7fafc;
-}
-
-p {
-    font-size: 10px;
 }
 </style>
 1/

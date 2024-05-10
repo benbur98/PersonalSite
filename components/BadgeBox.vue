@@ -1,6 +1,6 @@
 <template>
     <div class="badge-box">
-        <div class="badge-item" v-for="badge in badges">
+        <div class="badge-item" v-for="badge in items">
             <UBadge variant="soft">
                 {{ badge }}
             </UBadge>
@@ -10,7 +10,7 @@
 
 <script setup>
 const props = defineProps({
-    badges: Array
+    items: Array
 });
 </script>
 

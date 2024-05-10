@@ -16,10 +16,10 @@ const props = defineProps({
 
 <style scoped>
 .icon {
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.2s ease-in-out;
 }
 
 .icon:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 </style>

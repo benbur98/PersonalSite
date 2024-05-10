@@ -25,9 +25,9 @@ const secondName = computed(() => props.secondName.slice(1));
 
 <style scoped>
 span {
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: bold;
-    color: rgba(168, 152, 9, 0.784);
+    color: rgba(240, 218, 13, 0.966);
 }
 
 .container {
@@ -40,7 +40,7 @@ span {
 }
 
 .container:hover .second-name {
-    margin-left: 2.5em;
+    margin-left: 3.2em;
 }
 
 .name {

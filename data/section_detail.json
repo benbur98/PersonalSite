@@ -1,12 +1,13 @@
 [
     {
         "label": "Home Automation",
-        "icon": "i-heroicons-information-circle",
-        "content": "Home Assistant"
+        "icon": "i-heroicons-home-20-solid",
+        "content": "Home Assistant",
+        "technologies": ["C", "C++", "Arduino", "Raspberry Pi", "Home Assistant", "ESP"]
     },
     {
         "label": "Open Source",
         "icon": "i-heroicons-information-circle",
-        "content": "About Content"
+        "content": "Open Source Projects"
     }
 ]
