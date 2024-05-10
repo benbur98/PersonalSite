@@ -1,0 +1,12 @@
+[
+    {
+        "label": "Home Automation",
+        "icon": "i-heroicons-information-circle",
+        "content": "Home Assistant"
+    },
+    {
+        "label": "Open Source",
+        "icon": "i-heroicons-information-circle",
+        "content": "About Content"
+    }
+]

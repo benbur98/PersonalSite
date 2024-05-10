@@ -5,7 +5,7 @@
                 :src=image_src
                 :alt="`${props.name} Picture`"
                 size="3xl" />
-            <h1>{{ name }}</h1>
+            <h1><strong>{{ name }}</strong></h1>
             <h3>{{ subtitle }}</h3>
         </div>
     </UCard>
