@@ -11,9 +11,13 @@ export default defineNuxtConfig({
   },
   target: 'static',
   // ssr: false,
-  // nitro: {
-  //   prerender: {
-  //     routes: ['/404.html']
-  //   }
-  // },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: [
+        '/',
+        '/404.html'
+      ]
+    }
+  }
 })
