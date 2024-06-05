@@ -19,8 +19,12 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: "20"
-      - run: npm install
-      - run: npx nuxt build --preset github_pages
+          
+      - run: npx nypm install
+      - run: npm run build
+        env:
+          NITRO_PRESET: github_pages
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
