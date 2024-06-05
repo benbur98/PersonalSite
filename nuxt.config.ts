@@ -9,7 +9,7 @@ export default defineNuxtConfig({
       ]
     }
   },
-  // target: "static",
+  target: 'static',
   // ssr: false,
   // nitro: {
   //   prerender: {
