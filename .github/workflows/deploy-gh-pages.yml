@@ -5,13 +5,15 @@ on:
     branches:
       - main
   workflow_dispatch:
+
+env: 
+  NUXT_APP_BASE_URL: ${{ vars.PAGES_URL }}
   
 jobs:
   build:
     runs-on: ubuntu-latest
+  
     steps:
-      - env:
-          NUXT_APP_BASE_URL: "https://benbur98.github.io/PersonalSite/"
       - uses: actions/checkout@v3
       - run: corepack enable
       - uses: actions/setup-node@v3
@@ -24,9 +26,11 @@ jobs:
         with:
           path: ./.output/public
 
-  deploy:
+  deploy:  
     needs: build
 
+    runs-on: ubuntu-latest
+    
     # Grant GITHUB_TOKEN the permissions required to make a Pages Deployment
     permissions:
       pages: write      # to deploy to Pages
@@ -36,7 +40,6 @@ jobs:
       name: github_pages
       url: ${{ steps.deployment.outputs.page_url }}
 
-    runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
