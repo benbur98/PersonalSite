@@ -3,6 +3,11 @@ export default defineNuxtConfig({
   modules: ["@nuxt/ui", "nuxt-icon"],
   target: "static",
   ssr: false,
+  nitro: {
+    prerender: {
+      routes: ['/404.html']
+    }
+  },
   app: {
     head: {
       title: "Ben Burwood",
