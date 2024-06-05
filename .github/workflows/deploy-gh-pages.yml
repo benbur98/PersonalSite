@@ -21,6 +21,7 @@ jobs:
           node-version: "20"
           
       - run: npm install
+      - run: npm cache clean --force
       - run: npx nuxt build --preset github_pages
       
       - name: Upload artifact
