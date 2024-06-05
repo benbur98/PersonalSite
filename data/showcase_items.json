@@ -15,7 +15,6 @@
     },
     {
         "title": "Choresaurus",
-        "link": "https://github.com/benbur98/choresaurus",
         "description": "Home Task Tracking App",
         "technologies": ["Kotlin","Swift", "Compose", "Multiplatform", "iOS", "Android", "Desktop"]
     }
